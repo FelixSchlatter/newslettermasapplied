@@ -6,6 +6,18 @@
 
 
 <style type="text/css">
+
+/*
+
+hellbraun: #f3eddb;
+hellgrün: #c4c7b4;
+dunkelgrün: #859c88;
+hellblau: #92c6e7;
+dunkelrot: #a84a31;
+navy:   #989586;
+
+*/
+
         #outlook a{
             padding:0;
         }
@@ -18,16 +30,16 @@
         body{
             margin:0;
             padding:0;
-            font-family:arial,sans-serif;
+            font-family:verdana,sans-serif;
             text-align:left;
             font-size:15px;
             line-height:20px;
-            background-color:#efefef;
+            background-color:#e3e7ea;
             color:#616161 !important;
         }
         h1,h2,h3,h4{
             display:block;
-            font-family:arial,sans-serif;
+            font-family:verdana,sans-serif;
             font-size:16px;
             line-height:100%;
             font-style:normal;
@@ -62,19 +74,37 @@
         }
         #einleitung{
             padding-bottom:40px;
-            padding-top:55px;
-            background-image:url("https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/7307a11b-32b6-4b12-8eca-a47d2858ee2a.jpg");
-            background-repeat:no-repeat;
-            background-position:right center;
+            padding-top:15px;
+
         }
-        .logo{
-            padding:20px;
-            padding-bottom:70px;
-            display:block;
-        }
+       .headmeta {
+        padding: 20px 20px 40px;
+        display: block;
+       }
+       .logo {
+        float: left;
+       }
+       .masapplied {
+        float: right;
+        color: #000;
+        font-family: "palatino";
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 40px;
+       }
         a{
             color:#616161 !important;
             text-decoration:none;
+        }
+        .masapplied a {
+            color:#000 !important;
+        }
+        .headimg {
+            display:block;
+        }
+        .headimg img {
+            width: 100%;
+            height:auto;
         }
         .title a{
             color:#616161;
@@ -82,14 +112,11 @@
             text-decoration:none;
         }
         #bodyTable{
-            background-color:#efefef;
+            background-color:#ffffff;
             height:100% !important;
             margin:0;
             padding:0;
             text-align:left;
-            background-image:url("https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/a18e74b5-0631-4c0e-b13a-f45ba09d0774.jpg");
-            background-repeat:no-repeat;
-            background-position:bottom center;
             background-size:100% auto;
         }
         .borderbottom{
@@ -102,7 +129,7 @@
             line-height:12px;
             padding-bottom:15px;
             padding-top:7px;
-            text-align:center !important;
+            text-align:left !important;
             text-decoration:none !important;
         }
         .browserlink a{
@@ -181,20 +208,16 @@
             color:#cc5555;
             font-size:18px;
             font-weight:bold;
+            font-family: "palatino", times, serif;
         }
-        .anrede{
-            font-size:18px;
-            line-height:24px;
-            font-weight:bold;
-            color:#000;
-            display:block;
-        }
+    
         .subitle{
             color:#e56e6e;
             display:block;
             font-size:16px;
             font-weight:normal;
             line-height:24px;
+            font-family: "palatino", times, serif;
         }
         .meta{
             display:block;
@@ -359,15 +382,24 @@
 <tr>
     <td colspan="2" class="clearfix" valign="top" id="einleitung">
 
-        <div class="logo">
-            <img src="https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/559358d5-b9eb-4b4d-87b5-aa363dfe0ea2.jpg" alt="" border="0" mc:edit="logo">
-        </div>
 
-        <div class="teaser"></div>
+<div class="headmeta clearfix">
+    <div class="logo">
+        <img src="img/uzh_logo.jpg" alt="uzh logo" />
+    </div>
+    <div class="masapplied">
+        <a href="http://mas-applied-history.ch/">MAS in Applied History</a>
+    </div>
+</div>
+
+
+<div class="headimg">
+    <img src="img/napoleon.jpg" alt="napoleon" />
+</div>
+
+
 
         <div class="superholder clearfix">
-                <span class="anrede">*|ANREDE|*</span><br>
-                <span class="anrede" mc:edit="subtitle">Vielen herzlichen Dank,</span>
                 <span class="title" mc:edit="einleitungstext">f&uuml;r die M&ouml;glichkeit, gestern Abend die neue Website der Burgergesellschaft im Restaurant Schl&ouml;ssli zu pr&auml;sentieren. &nbsp;<br>
 Gem&auml;ss erstem Feedback kommt die Website gut an und sie wird bereits viel besucht. Ich m&ouml;chte mich f&uuml;r das Vertrauen und die positive Resonanz bedanken.<br>
 <br>
@@ -384,23 +416,6 @@ Felix Schlatter &amp; Ivo Schwizer</span>
 </tr>    
 
 
-<tr>
-    <td colspan="2" class="clearfix" valign="top">
-        <div class="superholder clearfix">
-            <div class="lefty">
-               <a href="https://schwizerschlatter.com/interaction-design-web-entwicklung-stgallen-jakob-schlaepfer" target="_blank" mc:edit="contentimg1"><img src="https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/04811172-ee68-47fd-a860-1c6db0b91976.jpg" alt="" border="0" style="margin: 0; padding: 0;" class="bodyImage"></a>
-            </div>
-            <div class="righty">
-                <span class="supertitle" mc:edit="supertitle1"><span style="color:#cc5555">Jakob Schlaepfer</span></span>
-                <span class="subitle" mc:edit="subitle1">die Welt der Stoffe</span>
-                <span class="text" mc:edit="text1">Eine grosse Ehre, f&uuml;r dieses traditionsreiche Unternehmen die neue Website zu entwickeln. Neben dem Fokus auf eine elegante und zeitgem&auml;sse Pr&auml;sentation der Kernsegmente Fashion und Interior wurde die neue Website mit einem Wordpress-CMS und einem durchg&auml;ngigen Responsive Design vervollst&auml;ndigt...</span>
-                <span class="linky">
-                    <a mc:edit="link1" target="_blank" href="https://schwizerschlatter.com/interaction-design-web-entwicklung-stgallen-jakob-schlaepfer/" target="_blank" title="Jakob Schlaepfer">&rarr; Mehr zum Projekt</a></a>
-                </span>
-            </div>
-        </div>
-    </td>
-</tr>   
 
 
 
@@ -409,54 +424,35 @@ Felix Schlatter &amp; Ivo Schwizer</span>
 <tr>
     <td colspan="2" class="clearfix" valign="top">
         <div class="superholder clearfix">
-            <div class="lefty">
-               <a href="https://schwizerschlatter.com/website-mobile-tablet-newsletter-executive-mba" target="_blank" mc:edit="contentimg2"><img src="https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/6681ba51-0c73-40a1-b985-7137709ebd54.jpg" alt="" border="0" style="margin: 0; padding: 0;" class="bodyImage"></a>
-            </div>
-            <div class="righty">
+            
+      
                 <span class="supertitle" mc:edit="supertitle2">Executive MBA</span>
                 <span class="subitle" mc:edit="subitle2">Universit&auml;t Z&uuml;rich</span>
                 <span class="text" mc:edit="text2">F&uuml;r den f&uuml;hrenden Schweizer Studiengang Executive MBA der Universit&auml;t Z&uuml;rich durften wir die gesamte Kommunikation im Web neu konzeptionieren und umsetzen. &Uuml;ber die Integration der Alumni-Website in die EMBA-Website bis hin zur Newsletter-Strategie - alles aus einem Guss, responsive, flexibel, interaktiv und konstant mit neuen Informationen...</span>
                 <span class="linky">
                     <a mc:edit="link2" target="_blank" href="https://schwizerschlatter.com/website-mobile-tablet-newsletter-executive-mba" target="_blank" title="Website Executive MBA Universität Zürich">&rarr; Mehr zum Projekt</a></a>
                 </span>
-            </div>
+       
         </div>
     </td>
 </tr> 
 
 
-<tr>
-    <td colspan="2" class="clearfix" valign="top">
-        <div class="superholder clearfix">
-            <div class="lefty">
-               <a href="https://schwizerschlatter.com/appdesign-webdesign-wohnrevue-magazin/" target="_blank" mc:edit="contentimg3"><img src="https://gallery.mailchimp.com/881ae16f7057d73e2d70b082b/images/95abc15c-e64a-4f53-98a7-04cba1ac8a2a.jpg" alt="" border="0" style="margin: 0; padding: 0;" class="bodyImage"></a>
-            </div>
-            <div class="righty">
-                <span class="supertitle" mc:edit="supertitle3">Wohnrevue
-</span>
-                <span class="subitle" mc:edit="subitle3">Magazin f&uuml;r Wohnen und Design</span>
-                <span class="text" mc:edit="text3">Die Wohnrevue ist seit &uuml;ber 25 Jahren ein national und international renommiertes Wohnmagazin. Sie liefert Inspirationen f&uuml;r einen der wichtigsten Orte &ndash; das eigene Zuhause. Wir konzipierten und entwarfen f&uuml;r die Wohnrevue die iPad App und die Website, mit den Vorz&uuml;gen und M&ouml;glichkeiten eines digitalen Magazins...</span>
-                <span class="linky">
-                    <a mc:edit="link3" target="_blank" href="https://schwizerschlatter.com/appdesign-webdesign-wohnrevue-magazin" target="_blank" title="Wohnrevue">&rarr; Mehr zum Projekt</a></a>
-                </span>
-            </div>
-        </div>
-    </td>
-</tr> 
+
 
 
 <tr>
     <td colspan="2" class="clearfix" valign="top">
         <div class="spacer" mc:edit="edit0011">
-            Schwizer &amp; Schlatter GmbH<br>
-            Davidstrasse 45<br>
-            9000 St.Gallen<br>
-            <br>
-            Telefon Felix Schlatter 071 220 90 83<br>
-            Telefon Ivo Schwizer 071 220 91 83<br>
-             <br>
-            <a href="mailto:hello@schwizerschlatter.com">hello@schwizerschlatter.com</a><br>
-            <a href="http://www.schwizerschlatter.com">www.schwizerschlatter.com</a><br>
+MAS Applied History<br>
+Programm Management<br>
+Historisches Seminar<br>
+Universität Zürich<br>
+Karl Schmid-Strasse 4<br>
+CH-8006 Zürich<br><br>
+Tel: +41 044 634 47 97<br>
+Fax: +41 044 634 47 07<br>
+E-Mail: <a href="mailto:applied-history@hist.uzh.ch">applied-history@hist.uzh.ch</a>
         </div>
     </td>
 </tr>  
